@@ -367,24 +367,32 @@ body{
   }
   
 }
-.owl-carousel {
-  .owl-nav {
-    top: -130px;
-    button{
-      &.owl-prev,&.owl-next{
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-      }
-      &.owl-next{
-       
+products-slider {
+  .owl-carousel {
+    .owl-nav {
+      top: -130px;
+      button{
+        &.owl-prev,&.owl-next{
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+        }
+        &.owl-next{
+
           margin-right: 2rem;
-      
+
+        }
       }
     }
   }
 }
-.owl-nav-top .owl-nav button.owl-next {
-  margin-left: 4rem;
+.owl-nav-top {
+  .owl-nav {
+    button{
+      &.owl-next {
+        margin-left: 4rem;
+      }
+    }
+  }
 }
 /* ************* Adds section ****************** */
 .parent-section{

@@ -22996,14 +22996,14 @@ body {
   right: auto;
 }
 
-.owl-carousel .owl-nav {
+products-slider .owl-carousel .owl-nav {
   top: -130px;
 }
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+products-slider .owl-carousel .owl-nav button.owl-prev, products-slider .owl-carousel .owl-nav button.owl-next {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-.owl-carousel .owl-nav button.owl-next {
+products-slider .owl-carousel .owl-nav button.owl-next {
   margin-right: 2rem;
 }
 
