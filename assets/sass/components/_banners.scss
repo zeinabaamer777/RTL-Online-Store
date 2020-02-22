@@ -1,0 +1,138 @@
+// Banners
+.banner {
+  display: block;
+  position: relative;
+  margin-bottom: 0;
+  background-color: #c1c1c1;
+
+  &.banner-cat {
+    display: flex;
+    align-items: center;
+    height: 360px;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-top: 7.5rem;
+    margin-bottom: 0;
+  }
+
+  > a {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+
+  .banner-content {
+    display: inline-block;
+  }
+}
+
+.banner-content {
+  .banner-title {
+    color: #fff;
+    font: 700 3rem/1 $second-font-family;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    margin-bottom: 2.3rem;
+  }
+
+  .banner-subtitle {
+    color: #fff;
+    font: 400 1.5rem/1 $font-family;
+    letter-spacing: 0;
+    margin-bottom: .9rem;
+    text-transform: uppercase;
+
+    strong {
+      font-size: 2.2rem;
+      font-family: $second-font-family;
+    }
+  }
+
+  .btn {
+    border-radius: .3rem;
+    min-width: 108px;
+    padding-top: .95rem;
+    padding-bottom: .95rem;
+  }
+}
+
+.banner-image {
+  > a {
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0, .25);
+      transition: all 0.3s ease;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &:hover,
+    &:focus {
+      &::after {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+@include mq('md') {
+  .banner {
+    &.banner-cat {
+      height: 400px;
+      padding-top: 9rem;
+    }
+  }
+
+  .banner-content {
+    .banner-title {
+      font-size: 3.8rem;
+      margin-bottom: 3.2rem;
+    }
+
+    .banner-subtitle {
+      font-size: 1.6rem;
+
+      span {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+@include mq('lg') {
+  .banner {
+    &.banner-cat {
+      height: 460px;
+    }
+  }
+
+  .banner-content {
+    .banner-title {
+      font-size: 4.6rem;
+      margin-bottom: 4.3rem;
+    }
+
+    .banner-subtitle {
+      font-size: 1.8rem;
+
+      span {
+        font-size: 2.6rem;
+      }
+    }
+  }
+}

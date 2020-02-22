@@ -1,0 +1,24 @@
+// Member
+.member {
+  position: relative;
+  margin-bottom: 2.8rem;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.member-title {
+  position: absolute;
+  left: 3rem;
+  bottom: 3rem;
+  font: 400 1.6rem/1 $second-font-family;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}

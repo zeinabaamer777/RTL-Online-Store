@@ -1,0 +1,125 @@
+// Sticky Header
+@-webkit-keyframes fixedHeader {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-60px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fixedHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sticky-header {
+  &.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    background-color: #555;
+    z-index: 1040;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: fixedHeader;
+    animation-name: fixedHeader;
+
+    .main-nav {
+      width: auto;
+      background-color: transparent;
+      margin-right: 3rem;
+    }
+
+    .header-contact {
+      margin-right: 3.3rem;
+    }
+
+    .header-dropdowns {
+      margin-right: 3rem;
+    }
+
+    .menu {
+      > li {
+        > a {
+          padding-top: .55rem;
+          padding-bottom: .55rem;
+        }
+      }
+    }
+
+    .logo {
+      img {
+        width: auto;
+        max-height: 32px;
+      }
+    }
+
+    .header-contact {
+      padding-right: 2.6rem;
+      margin-right: 1.9rem;
+
+      &::after {
+        height: 24px;
+        margin-top: -12px;
+      }
+    }
+
+    .cart-dropdown {
+      .dropdown-toggle {
+        padding-right: 1.6rem;
+
+        .cart-count {
+          right: .8rem;
+        }
+      }
+
+      .dropdownmenu-wrapper::before {
+        right: 17px;
+      }
+
+      .dropdownmenu-wrapper::after {
+        right: 18px;
+      }
+    }
+  }
+
+  &.fixed-nav {
+    position: fixed;
+    top: 46px;
+    right: 0;
+    left: 0;
+    height: 38px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    z-index: 1039;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: fixedHeader;
+    animation-name: fixedHeader;
+
+    .container-fluid {
+      margin: 0 auto;
+    }
+  }
+}
+
+@include mq('sm', 'max') {
+  .sticky-header.fixed-nav {
+    display: none;
+  }
+}

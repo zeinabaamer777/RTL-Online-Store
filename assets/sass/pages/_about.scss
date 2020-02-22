@@ -1,0 +1,51 @@
+// About
+.owl-carousel .member {
+  margin-bottom: 0;
+}
+
+.about-section {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background-color: #fff;
+
+  img {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+}
+
+.features-section {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.team-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #fff;
+}
+
+.team-carousel {
+  .member {
+    margin-bottom: 0;
+  }
+}
+
+.testimonials-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #fff;
+}
+
+@include mq('md') {
+}
+
+@include mq('lg') {
+}
+
+@include mq('xl') {
+}

@@ -1,0 +1,62 @@
+// Testimonials
+.testimonial-owner {
+  display: flex;
+  display: -ms-flexbox;
+  align-content: center;
+  -ms-flex-align: center;
+
+  figure {
+    max-width: 60px;
+    margin-right: 25px;
+  }
+
+  h4 {
+    display: block;
+    margin-bottom: .4rem;
+    padding-top: .7rem;
+    color: #303539;
+    font: 400 1.6rem/1 $second-font-family;
+    text-transform: uppercase;
+  }
+
+  span {
+    display: block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+}
+
+.testimonial {
+  blockquote {
+    position: relative;
+    margin-left: 0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 1.8;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: $primary-color;
+      font-family: 'porto';
+      font-size: 2.1rem;
+      font-weight: 400;
+      line-height: 1;
+      content: '\e842';
+    }
+  }
+}
+
+@include mq('sm') {
+  .testimonial {
+    blockquote {
+      padding: 1.5rem 3rem 1.5rem 5rem;
+    }
+
+    .testimonial-owner {
+      margin-left: 5rem;
+    }
+  }
+}

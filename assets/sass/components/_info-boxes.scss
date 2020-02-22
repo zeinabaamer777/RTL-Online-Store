@@ -1,0 +1,138 @@
+// Info Boxes
+.info-boxes-container {
+  border-bottom: .1rem solid #e5e8e8;
+  margin-bottom: 3.4rem;
+  
+  .container,
+  .container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  padding: .7rem 1.5rem;
+  width: 100%;
+  color: #839199;
+
+  i {
+    min-width: 3.5rem;
+    margin-right: 1.9rem;
+    color: #465157;
+    font-size: 3.7rem;
+    text-align: center;
+
+    &::before {
+      width: auto;
+      margin: 0;
+    }
+  }
+
+  h4 {
+    margin-bottom: .1rem;
+    padding-top: .1rem;
+    color: #465157;
+    font: 600 1.4rem / 1.1 $font-family;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .01rem;
+    line-height: 1.6;
+  }
+
+  &.info-box-wrap {
+    display: block;
+    padding: 35px 30px 40px;
+    line-height: 1.4;
+    background-color: #fff;
+    margin-bottom: 12px;
+    margin-bottom: 1.5rem;
+    @include clearfix;
+
+    i {
+      color: #141a1f;
+      margin-right: 2rem;
+      float: left;
+    }
+
+    h4 {
+      color: #141a1f;
+      font-size: 1.8rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      margin-left: 60px;
+    }
+
+    p {
+      font-size:  15px;
+      font-weight: 400;
+      color: #646a70;
+      line-height: 1.8;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      max-height: 81px;
+      margin-left: 60px;
+    }
+  }
+}
+
+@include mq('md') {
+  .info-boxes-container {
+
+    .container,
+    .container-fluid {
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    .info-box {
+      -ms-flex: 0 0 33.33%;
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      justify-content: center;
+
+      &:first-child {
+        justify-content: flex-start;
+      }
+
+      & + .info-box {
+        border-left: .1rem solid #e5e8e8;
+      }
+    }
+  }
+
+  .info-box {
+    padding-top: 1.6rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info-boxes-container {
+    .container {
+      width: 100%;
+      max-width: none;
+    }
+  }
+}
