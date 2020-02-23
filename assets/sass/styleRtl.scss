@@ -260,14 +260,20 @@ body{
     margin-left: 1.5rem;
   }
   .header-search-wrapper{
+    right: -130px;
+    &::before{
+      right: 126px;
+      left: auto;
+    }
     @media screen and (max-width: 767px){
       left: -70px;
       right: auto;
+      &::before{
+        left: 72px;
+        right: auto;
+      }
     }
-    &::before{
-      left: 72px;
-      right: auto;
-    }
+
   }
   
 }
