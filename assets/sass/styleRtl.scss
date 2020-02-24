@@ -178,25 +178,25 @@ body{
 }
 .mobile-menu-toggler {
   @media screen and (max-width: 991px){
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 2rem;
+    //display: -ms-flexbox;
+    //display: flex;
+    //margin-right: 2rem;
   }
-  @media screen and (max-width: 767px){
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 15px;
-    margin-right: 1.5rem;
-    //en
-    // right: 0;
-    // left: auto;
-    //ar
-    right: auto;
-    left: 0;
-    top: auto;
-    // transform: translateY(-50%);
-
-  }
+  //@media screen and (max-width: 767px){
+  //  display: -ms-flexbox;
+  //  display: flex;
+  //  margin-top: 15px;
+  //  margin-right: 1.5rem;
+  //  //en
+  //  // right: 0;
+  //  // left: auto;
+  //  //ar
+  //  right: auto;
+  //  //left: 0;
+  //  top: auto;
+  //  // transform: translateY(-50%);
+  //
+  //}
 }
 .mobile-menu-wrapper{
   text-align: right;
@@ -234,35 +234,16 @@ body{
   }    
 }
 
-.header-dropdowns{
-  @media screen and (max-width: 767px)
-  {
-    position: absolute;
-    top: -0.4rem; 
-    margin-left: -16px;
-    //en
 
-    // right:0;
-    // left: auto;
-    // margin-right: 20px;
-
-    /* AR */
-    left: 0;
-    right: auto;
-    // margin-left: 20px;
-    // end ar
-    display: flex;
- }
-}
 
 .header-search {
   @media screen and (max-width: 767px) {
     margin-left: 1.5rem;
   }
   .header-search-wrapper{
-    right: -130px;
+    right: -230px;
     &::before{
-      right: 126px;
+      right: 225px;
       left: auto;
     }
     @media screen and (max-width: 767px){
@@ -451,3 +432,22 @@ custom-control-label{
 
   content: none;
 }
+
+// 24/2/2020
+.header-dropdowns{
+  @media screen and (max-width: 991px)
+  {
+    position: absolute;
+    left: 11.2rem;
+    top: 50% !important;
+    display: inline-block;
+  }
+}
+.header-right{
+  @media screen and (max-width: 991px)
+  {
+    width: 100%;
+  }
+
+}
+ // remove left: 0; from menu-mobile-toggler
