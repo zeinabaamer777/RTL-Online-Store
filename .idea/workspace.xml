@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="43b2e63e-2553-4e29-8c0a-16355921f707" name="Default Changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.sass-cache/2cee25e9e0b48d3925d52776d09d76dac2bf907a/styleRtl.scssc" afterPath="$PROJECT_DIR$/assets/.sass-cache/2cee25e9e0b48d3925d52776d09d76dac2bf907a/styleRtl.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styleRtl.css" afterPath="$PROJECT_DIR$/assets/css/styleRtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styleRtl.css.map" afterPath="$PROJECT_DIR$/assets/css/styleRtl.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/styleRtl.scss" afterPath="$PROJECT_DIR$/assets/sass/styleRtl.scss" />
@@ -40,8 +41,8 @@
       <file leaf-file-name="styleRtl.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/styleRtl.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="357" column="3" lean-forward="false" selection-start-line="357" selection-start-column="3" selection-end-line="357" selection-end-column="3" />
+            <state relative-caret-position="295">
+              <caret line="486" column="16" lean-forward="false" selection-start-line="486" selection-start-column="16" selection-end-line="486" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -351,12 +352,20 @@
       <workItem from="1582551046231" duration="3611000" />
       <workItem from="1582622143555" duration="865000" />
       <workItem from="1582631176100" duration="1969000" />
-      <workItem from="1582633812676" duration="1738000" />
+      <workItem from="1582633812676" duration="2123000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1582641916360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582641916360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19493000" />
+    <option name="totallyTimeSpent" value="19878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -387,6 +396,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -785,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/styleRtl.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="357" column="3" lean-forward="false" selection-start-line="357" selection-start-column="3" selection-end-line="357" selection-end-column="3" />
+        <state relative-caret-position="295">
+          <caret line="486" column="16" lean-forward="false" selection-start-line="486" selection-start-column="16" selection-end-line="486" selection-end-column="16" />
           <folding />
         </state>
       </provider>

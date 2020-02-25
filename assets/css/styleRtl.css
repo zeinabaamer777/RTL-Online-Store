@@ -18541,4 +18541,21 @@ custom-control-label {
   background: #29363c;
   border-radius: 50%; }
 
+.header-dropdown a::after {
+  display: inline-block;
+  content: '\e81c';
+  font-family: 'porto';
+  font-size: 1.4rem;
+  position: absolute;
+  right: -2px;
+  top: auto;
+  width: auto;
+  margin: 0;
+  height: auto;
+  color: #fff;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+  transition: all .3s; }
+
 /*# sourceMappingURL=styleRtl.css.map */
