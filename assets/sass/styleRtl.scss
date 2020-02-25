@@ -354,8 +354,8 @@ body{
   }
   
 }
-products-slider {
-  .owl-carousel {
+.products-slider {
+  &.owl-carousel {
     .owl-nav {
       top: -130px;
       button{
@@ -458,3 +458,20 @@ custom-control-label{
 
 }
  // remove left: 0; from menu-mobile-toggler
+
+/***************** 25/2/2020 Edits ****************/
+
+.mfp-close-btn-in {
+  .newsletter-popup {
+    .mfp-close {
+      height: 20px;
+      width:  20px;
+      line-height: 20px;
+      top: 6px;
+      right: 6px;
+      color: #f6f6f6;
+      background: #29363c;
+      border-radius: 50%;
+    }
+  }
+}

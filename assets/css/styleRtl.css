@@ -18467,12 +18467,12 @@ body {
   left: 0;
   right: auto; }
 
-products-slider .owl-carousel .owl-nav {
+.products-slider.owl-carousel .owl-nav {
   top: -130px; }
-  products-slider .owl-carousel .owl-nav button.owl-prev, products-slider .owl-carousel .owl-nav button.owl-next {
+  .products-slider.owl-carousel .owl-nav button.owl-prev, .products-slider.owl-carousel .owl-nav button.owl-next {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1); }
-  products-slider .owl-carousel .owl-nav button.owl-next {
+  .products-slider.owl-carousel .owl-nav button.owl-next {
     margin-right: 2rem; }
 
 .owl-nav-top .owl-nav button.owl-next {
@@ -18529,5 +18529,16 @@ custom-control-label {
 @media screen and (max-width: 991px) {
   .header-right {
     width: 100%; } }
+
+/***************** 25/2/2020 Edits ****************/
+.mfp-close-btn-in .newsletter-popup .mfp-close {
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  top: 6px;
+  right: 6px;
+  color: #f6f6f6;
+  background: #29363c;
+  border-radius: 50%; }
 
 /*# sourceMappingURL=styleRtl.css.map */
