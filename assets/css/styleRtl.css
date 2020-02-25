@@ -2,7 +2,7 @@
 /* Main Css File */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700");
-@import url(bootstrap-rtl.min.css);
+@import url(../css/bootstrap-rtl.min.css);
 @import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700");
@@ -18521,7 +18521,10 @@ custom-control-label {
     position: absolute;
     left: 11.2rem;
     top: 50% !important;
-    display: inline-block; } }
+    display: inline-block;
+    position: absolute;
+    /* top: -.4rem; */
+    margin-right: 0; } }
 
 @media screen and (max-width: 991px) {
   .header-right {

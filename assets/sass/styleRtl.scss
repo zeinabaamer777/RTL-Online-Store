@@ -65,7 +65,7 @@
 /* Spacing + Helpers */
 @import 'config/helpers';
 @import 'config/spacing';
-@import "bootstrap-rtl.min.css";
+@import "../css/bootstrap-rtl.min.css";
 @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
 
 @import 'custom.scss';
@@ -441,6 +441,13 @@ custom-control-label{
     left: 11.2rem;
     top: 50% !important;
     display: inline-block;
+    position: absolute;
+    /* top: -.4rem; */
+    //right: 10.5rem;
+    margin-right: 0;
+  }
+  @media (max-width: 767px) {
+
   }
 }
 .header-right{
