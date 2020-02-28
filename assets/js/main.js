@@ -1032,32 +1032,32 @@
         e.preventDefault();
       });
     },
-    newsletterPopup: function() {
-      $.magnificPopup.open({
-        items: {
-          src: '#newsletter-popup-form'
-        },
-        type: 'inline',
-        mainClass: 'mfp-newsletter',
-        removalDelay: 350
-      });
-    },
+    // newsletterPopup: function() {
+    //   $.magnificPopup.open({
+    //     items: {
+    //       src: '#newsletter-popup-form'
+    //     },
+    //     type: 'inline',
+    //     mainClass: 'mfp-newsletter',
+    //     removalDelay: 350
+    //   });
+    // },
     lightBox: function () {
       // Newsletter popup
-      if ( document.getElementById('newsletter-popup-form') ) {
-        setTimeout(function() {
-          var mpInstance = $.magnificPopup.instance;
-          if (mpInstance.isOpen) {
-            mpInstance.close();
-            setTimeout(function() {
-              Porto.newsletterPopup();
-            },360);
-          }
-          else {
-            Porto.newsletterPopup();
-          }
-        }, 10000);
-      }
+      // if ( document.getElementById('newsletter-popup-form') ) {
+      //   setTimeout(function() {
+      //     var mpInstance = $.magnificPopup.instance;
+      //     if (mpInstance.isOpen) {
+      //       mpInstance.close();
+      //       setTimeout(function() {
+      //         Porto.newsletterPopup();
+      //       },360);
+      //     }
+      //     else {
+      //       Porto.newsletterPopup();
+      //     }
+      //   }, 10000);
+      // }
 
       // Gallery Lightbox
       var links = [];

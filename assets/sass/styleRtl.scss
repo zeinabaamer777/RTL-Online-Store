@@ -260,13 +260,12 @@ body{
 }
 
 //  slider
-.home-slide-content{
-  // text-align: left;
-}
+
 .home-slider-thumbs{
   direction: ltr;
   right: unset;
-  left: 0;
+  //left: 0;
+  left: 4.8rem;
 }
 .rotated-image{
   -webkit-transform: scaleX(-1);
@@ -495,4 +494,8 @@ custom-control-label{
       transition: all .3s;
     }
   }
+}
+// *****************************  28/2/2020 Edits *****************************
+.optional{
+  margin-right: 2px;
 }

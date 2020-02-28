@@ -599,3 +599,20 @@
     top:0;
   }
 }
+
+
+/* **********************************  28/2/2020 ***************************** */
+.optional{
+  color: #6e6e6e;
+  font-size: 1.2rem;
+}
+
+.login-popup {
+  label {
+    color: #6a6a6a;
+    font-size: 1.5rem;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 1.1rem;
+  }
+}
