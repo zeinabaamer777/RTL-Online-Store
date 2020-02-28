@@ -22776,6 +22776,29 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .login-popup input::-webkit-input-placeholder {
   font-size: 1.1rem;
 }
+.login-popup input::-moz-placeholder {
+  font-size: 1.1rem;
+}
+.login-popup input:-ms-input-placeholder {
+  font-size: 1.1rem;
+}
+.login-popup input::placeholder {
+  font-size: 1.1rem;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 7%;
+  border: 2px solid #7e7e7e;
+}
+
+.form-input {
+  border-radius: 5px;
+  padding: 0.5rem 1.2rem;
+}
+
+.header-menu a:hover, .header-menu a:focus {
+  background-color: #1b1e21;
+}
 
 body {
   font-family: "Cairo", sans-serif !important;
@@ -22860,6 +22883,15 @@ body {
 
 .mmenu-active .page-wrapper {
   transform: translateX(0);
+}
+
+@media screen and (max-width: 991px) {
+  .mobile-menu-toggler {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .mobile-menu-wrapper {
@@ -23078,7 +23110,7 @@ custom-control-label {
   border-radius: 50%;
 }
 
-.header-dropdown a::after {
+.header-dropdown > a::after {
   display: inline-block;
   content: "";
   font-family: "porto";
@@ -23098,6 +23130,32 @@ custom-control-label {
 
 .optional {
   margin-right: 2px;
+}
+
+.form-check-label {
+  margin-right: 2rem;
+}
+
+.menu > li {
+  float: right;
+}
+
+.menu > li + li {
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu > li + li {
+    margin-right: 2.1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .mobile-menu-toggler {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 /*# sourceMappingURL=styleRtl.css.map */

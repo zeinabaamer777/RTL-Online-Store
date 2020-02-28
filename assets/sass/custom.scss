@@ -612,7 +612,39 @@
     color: #6a6a6a;
     font-size: 1.5rem;
   }
-  input::-webkit-input-placeholder {
-    font-size: 1.1rem;
+  input{
+    &::-webkit-input-placeholder {
+      font-size: 1.1rem;
+    }
+    &::-moz-placeholder{
+      font-size: 1.1rem;
+    }
+    &:-ms-input-placeholder{
+      font-size: 1.1rem;
+    }
+    &::placeholder {
+      font-size: 1.1rem;
+    }
+  }
+}
+.custom-checkbox {
+  .custom-control-label{
+    &::before {
+      border-radius: 7%;
+      border: 2px solid #7e7e7e;
+
+    }
+  }
+}
+
+.form-input {
+  border-radius: 5px;
+  padding: .5rem 1.2rem;
+}
+.header-menu {
+  a{
+    &:hover,&:focus{
+      background-color: #1b1e21;
+    }
   }
 }

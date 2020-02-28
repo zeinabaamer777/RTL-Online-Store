@@ -11634,5 +11634,28 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .login-popup input::-webkit-input-placeholder {
   font-size: 1.1rem;
 }
+.login-popup input::-moz-placeholder {
+  font-size: 1.1rem;
+}
+.login-popup input:-ms-input-placeholder {
+  font-size: 1.1rem;
+}
+.login-popup input::placeholder {
+  font-size: 1.1rem;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 7%;
+  border: 2px solid #7e7e7e;
+}
+
+.form-input {
+  border-radius: 5px;
+  padding: 0.5rem 1.2rem;
+}
+
+.header-menu a:hover, .header-menu a:focus {
+  background-color: #1b1e21;
+}
 
 /*# sourceMappingURL=custom.css.map */
