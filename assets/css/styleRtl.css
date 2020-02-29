@@ -23158,4 +23158,17 @@ custom-control-label {
   }
 }
 
+/* *******************  29/2/2020 ***************** */
+.footer-top .widget-newsletter .form-control {
+  border: 1px solid transparent;
+}
+@media screen and (min-width: 992px) {
+  .footer-top .widget-newsletter .form-control {
+    padding-left: 16rem;
+    padding-right: 4rem;
+    text-align: right;
+    direction: ltr;
+  }
+}
+
 /*# sourceMappingURL=styleRtl.css.map */
