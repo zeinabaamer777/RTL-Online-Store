@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b2e63e-2553-4e29-8c0a-16355921f707" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/assets/css/styleRtl.css" afterPath="$PROJECT_DIR$/assets/css/styleRtl.css" />
       <change beforePath="$PROJECT_DIR$/assets/css/styleRtl.css.map" afterPath="$PROJECT_DIR$/assets/css/styleRtl.css.map" />
       <change beforePath="$PROJECT_DIR$/assets/sass/styleRtl.scss" afterPath="$PROJECT_DIR$/assets/sass/styleRtl.scss" />
@@ -58,8 +59,8 @@
       <file leaf-file-name="styleRtl.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/sass/styleRtl.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="568" column="23" lean-forward="false" selection-start-line="568" selection-start-column="23" selection-end-line="568" selection-end-column="23" />
+            <state relative-caret-position="423">
+              <caret line="589" column="3" lean-forward="false" selection-start-line="589" selection-start-column="3" selection-end-line="589" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -336,7 +337,7 @@
       <workItem from="1582622143555" duration="865000" />
       <workItem from="1582631176100" duration="1969000" />
       <workItem from="1582633812676" duration="2123000" />
-      <workItem from="1582908652430" duration="12622000" />
+      <workItem from="1582908652430" duration="13759000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1582641916360</created>
@@ -349,7 +350,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32500000" />
+    <option name="totallyTimeSpent" value="33637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -784,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/styleRtl.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="568" column="23" lean-forward="false" selection-start-line="568" selection-start-column="23" selection-end-line="568" selection-end-column="23" />
+        <state relative-caret-position="423">
+          <caret line="589" column="3" lean-forward="false" selection-start-line="589" selection-start-column="3" selection-end-line="589" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -573,3 +573,19 @@ custom-control-label{
   }
 
 }
+@include mq('md') {
+  .info-boxes-container {
+    .info-box {
+      &:first-child {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+// ************ header *********************
+.header{
+  &.header-transparent{
+    top: 0;
+  }
+}

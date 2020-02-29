@@ -23185,4 +23185,13 @@ custom-control-label {
   padding-left: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .info-boxes-container .info-box:first-child {
+    justify-content: center;
+  }
+}
+.header.header-transparent {
+  top: 0;
+}
+
 /*# sourceMappingURL=styleRtl.css.map */
