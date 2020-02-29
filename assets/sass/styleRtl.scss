@@ -562,3 +562,14 @@ custom-control-label{
     }
   }
 }
+
+// BreadCrumb Edits
+.breadcrumb-item {
+  + .breadcrumb-item{
+    padding-left: 2rem;
+    &::before{
+      padding-left: 2rem;
+    }
+  }
+
+}

@@ -23178,4 +23178,11 @@ custom-control-label {
   margin-right: 0.5rem;
 }
 
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 2rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 2rem;
+}
+
 /*# sourceMappingURL=styleRtl.css.map */
