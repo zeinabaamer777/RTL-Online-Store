@@ -23170,7 +23170,10 @@ custom-control-label {
     direction: ltr;
   }
 }
-.footer .social-icon + .social-icon {
+.footer .widget-social .social-icons {
+  float: left;
+}
+.footer .widget-social .social-icons .social-icon + .social-icon {
   margin-left: auto;
   margin-right: 0.5rem;
 }

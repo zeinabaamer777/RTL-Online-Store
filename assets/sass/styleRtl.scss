@@ -550,10 +550,15 @@ custom-control-label{
       }
     }
   }
-  .social-icon {
-    + .social-icon {
-      margin-left: auto;
-      margin-right: .5rem;
+  .widget-social{
+    .social-icons{
+      float: left;
+      .social-icon {
+        + .social-icon {
+          margin-left: auto;
+          margin-right: .5rem;
+        }
+      }
     }
   }
 }
