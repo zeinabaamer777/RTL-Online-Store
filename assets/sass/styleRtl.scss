@@ -534,17 +534,26 @@ custom-control-label{
   }
 }
 /* *******************  29/2/2020 ***************** */
-.footer-top{
-  .widget-newsletter {
-    .form-control {
-      border: 1px solid transparent;
-      @media screen and (min-width: 992px){
-        padding-left: 16rem;
-        padding-right: 4rem;
-        text-align: right;
-        direction: ltr;
+
+
+.footer{
+  .footer-top{
+    .widget-newsletter {
+      .form-control {
+        border: 1px solid transparent;
+        @media screen and (min-width: 992px){
+          padding-left: 16rem;
+          padding-right: 4rem;
+          text-align: right;
+          direction: ltr;
+        }
       }
     }
   }
+  .social-icon {
+    + .social-icon {
+      margin-left: auto;
+      margin-right: .5rem;
+    }
+  }
 }
-
